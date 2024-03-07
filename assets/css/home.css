@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    min-height: 100vh;
+    background-color: #000000 !important;
+    background-size: cover !important;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #000000;
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.card {
+    height: 100% !important;
+    background: rgba(206, 206, 206, 0);
+    /* Ubah ke warna latar belakang semi-transparan */
+    border: 2px solid transparent;
+    /* Hilangkan border dan ganti dengan shadow */
+    border-radius: 15px;
+    /* Lebih membulatkan sudut kartu */
+    overflow: hidden;
+    /* Sembunyikan konten yang keluar dari kartu */
+    transition: transform 0.3s ease;
+    /* Efek transisi saat kartu dihover */
+    background: transparent !important;
+    border: 3px solid #ddd !important;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    color: rgb(7, 7, 7);
+    border-radius: 10px;
+}
+
+.card .card-title {
+    font-size: 1.2rem;
+    /* Ubah ukuran teks judul */
+    font-weight: 600;
+    /* Tingkatkan ketebalan teks judul */
+    color: #ffffff;
+    margin-bottom: 10px;
+    /* Beri jarak antara judul dan konten */
+}
+
+.card .card-content {
+    padding: 20px;
+    /* Beri padding pada konten kartu */
+    color: #ddd;
+    /* Ganti warna teks konten */
+}
+
+
+.card-img {
+    height: 100%;
+}
+
+.card-kategori {
+    padding: 255px 0;
+}
+
+.btn-group .btn {
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: transparent !important;
+    border: 2px solid #ddd !important;
+    backdrop-filter: blur(20px);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+.btn-group .btn:hover {
+    background-color: #45a049;
+    /* Warna latar hijau saat hover */
+}
+
+.btn-group .btn-secondary {
+    background-color: #008CBA;
+    /* Warna latar biru */
+}
+
+.btn-group .btn-secondary:hover {
+    background-color: #0073e6;
+    /* Warna latar biru saat hover */
+}
+
+svg path {
+    fill: #ffffff;
+    /* Merah */
+}

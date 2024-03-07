@@ -1,0 +1,48 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* General Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: "Poppins", sans-serif;
+    background:url("../Gambar/mybg2.gif") no-repeat!important;
+    background-position: center;
+    background-size:cover !important;
+}
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* General Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: "Poppins", sans-serif;
+    background:url("../Gambar/mybg2.gif") no-repeat!important;
+    background-position: center;
+    background-size:cover !important;
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+.form-label {
+    color: #ccc;
+}
+
+
+
